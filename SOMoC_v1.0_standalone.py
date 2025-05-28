@@ -40,7 +40,7 @@ from molvs import Standardizer
 # Molecules must be in the first column.
 input_file = None
 
-test_file = "test/focal_adhesion.csv"
+test_file = "smiles_input.csv"
 
 # If you already know the number of clusters in your data, then set K to this value.
 # Otherwise, set K=None to let SOMoC approaximate it by running a range of K values.
